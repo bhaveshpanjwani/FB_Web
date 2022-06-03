@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Plau';
+    src: url('Plau-Medium.eot');
+    src: local('Plau-Medium'),
+        url('Plau-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Plau-Medium.woff2') format('woff2'),
+        url('Plau-Medium.woff') format('woff'),
+        url('Plau-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Plau';
+    src: url('Plau-Bold.eot');
+    src: local('Plau-Bold'),
+        url('Plau-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Plau-Bold.woff2') format('woff2'),
+        url('Plau-Bold.woff') format('woff'),
+        url('Plau-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Plau';
+    src: url('Plau-Thin.eot');
+    src: local('Plau-Thin'),
+        url('Plau-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Plau-Thin.woff2') format('woff2'),
+        url('Plau-Thin.woff') format('woff'),
+        url('Plau-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Plau';
+    src: url('Plau-Light.eot');
+    src: local('Plau-Light'),
+        url('Plau-Light.eot?#iefix') format('embedded-opentype'),
+        url('Plau-Light.woff2') format('woff2'),
+        url('Plau-Light.woff') format('woff'),
+        url('Plau-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Plau';
+    src: url('Plau.eot');
+    src: local('Plau'),
+        url('Plau.eot?#iefix') format('embedded-opentype'),
+        url('Plau.woff2') format('woff2'),
+        url('Plau.woff') format('woff'),
+        url('Plau.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Plau';
+    src: url('Plau-Black.eot');
+    src: local('Plau-Black'),
+        url('Plau-Black.eot?#iefix') format('embedded-opentype'),
+        url('Plau-Black.woff2') format('woff2'),
+        url('Plau-Black.woff') format('woff'),
+        url('Plau-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
