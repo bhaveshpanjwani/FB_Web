@@ -9,26 +9,27 @@
     font-style: normal;
 }
 @font-face {
-    font-family: Plau-Black;
-    src: url('../font/plau/Plau-Black.woff') format('woff2');
-   
+    font-family: 'Plau-Black';
+    src: url('../font/plau/Plau-Black.woff') format('woff');
+    
 }
 @font-face {
-    font-family: Plau-bold;
+    font-family: 'Plau-bold';
     src: url('../font/plau/Plau-Bold.woff') format('woff');
-   
+    font-weight: normal;
+    font-style: bold;
 }
 @font-face {
-    font-family: plau-Light;
+    font-family: 'plau-Light';
     src: url('../font/plau/Plau-Light.woff') format('woff');
 
 }
 @font-face {
-    font-family: plau-med;
+    font-family: 'plau-med';
     src: url('../font/plau/Plau-Medium.woff') format('woff');
 }
 @font-face {
-    font-family: plau-thin;
+    font-family: 'plau-thin';
     src: url('../font/plau/Plau-Thin.woff') format('woff');
 }
 body{
@@ -53,12 +54,12 @@ body{
     color: #fff;
 }
 .maintagline{
-    font-family: Plau-Regular;
+    font-family:'Plau-Regular';
     padding-bottom: 10px;
     margin: 0;
 }
 .subtagline{
-    font-family: Plau-Regular;
+    font-family: 'Plau-Regular';
     display: flex;
     margin: 0;
     padding: 0;
@@ -79,16 +80,17 @@ body{
 .listcss{
     display: flex; 
     padding-right: 34px;
-    font-family: Plau-Regular;
+    font-family: 'Plau-Light';
     font-weight: normal;
     font-size: 16px;
     line-height: 16px;
 }
-.listcss li {
+.listcss a {
     padding-right: 34px;
 }
 .active{
     color:#A6CE39;
+    font-family: 'Plau-bold';
 }
 .listcss li:last-child
 {
@@ -96,7 +98,7 @@ body{
 }
 .btncss{
     margin-top: 45px;
-    font-family: Plau-Regular;
+    font-family: 'Plau-Light';
     font-size: 26px;
     letter-spacing: 0.01em;
     line-height: 26px;
@@ -104,10 +106,7 @@ body{
     color: #fff;
     background-color: #A6CE39;
     border-color: #A6CE39;
-    padding-left: 34px;
-    padding-right: 17px;
-    padding-top: 22px;
-    padding-bottom: 13px;   
+    padding:22px;  
 
 }
 .spacing{
@@ -116,21 +115,31 @@ body{
 }
 .menu{
    
-    font-family: Plau-Regular;
+    font-family: 'Plau-Light';
     font-weight: normal;
     font-size: 14px;
     line-height: 14px;
     text-align: left;
     color: #fff;
     background-color: #A6CE39;
-
+   
+}
+a{
+    text-decoration:none;
+    color:#fff;
+}
+.ulcss a:hover{
+    color:#A6CE39;
+}
+a :hover{
+    color:#69747A;
 }
 .menucss{
     list-style-type: none;
     display: flex;
     padding-top: 23px;
     padding-bottom: 18px;
-    padding-left: 95px;
+    padding-left: 190px;
     margin: 0;
    
 }
@@ -140,16 +149,44 @@ body{
 .headactive{
     color:#69747A;
 }
+.hover-menu-1{
+    width: 1033px;
+    background: #fff;
+    box-shadow: 0px 10px 10px rgb(105 116 122 / 50%);
+    margin-left: 150px;
+    padding: 40px;
+}
+.hover-ulcss{
+    list-style-type: none;
+    font-family: 'Plau-med';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: left;     
+    margin-top: 20px;
+    margin-right: 30px;
+    padding: 0;     
+}
+.hover-ulcss a{
+    color: #69747a;
+    opacity: 0.5;
+}
+.hover-css{
+    color: #69747a;
+}
 /*End Header section*/
 /* Main */
 .img-text{  
-    width: 1170px;
-    height: 170px;
+    /* width: 1111px;
+    background-color: #fff;
+    
+    opacity: 0.5; */
+    position: absolute;
+    padding: 40px;
+    width: 1100px;
     background: linear-gradient(#fff 0%, rgba(255, 255, 255, 0.25) 100%);
-
-    opacity: 0.5;
-    color: black;
-  
+    top: 350px;
+    left: 155px;
 }
 .triangle{
   
@@ -163,4 +200,328 @@ body{
 .img{
     position: relative;
 }
+h1{
+    font-family: 'Plau-bold';
+    font-size: 40px;
+    line-height: 40px;
+    text-align: left;
+    color: #69747a;
+
+}
+h2{
+ 
+    font-family: 'Plau-Light';
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #69747a;
+
+}
+
 /* End Main*/
+/*start grean text area */
+.text-area{
+    background-color: #A6CE39;
+    padding-top:120px;
+    padding-left:160px;
+    padding-bottom:120px;
+
+}
+.h1css{
+    font-family: 'Plau-Light';
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: left;
+    color: #fff;
+    margin: 0;
+    padding-bottom: 40px;
+}
+.get-btn{
+    font-family: 'Plau-Regular';
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 26px;
+    text-align: left;
+    color: #fff;
+    background:transparent;
+    border:2px solid #fff;
+    padding: 18px;
+    margin-right: 30px;
+}
+
+/*End grean text area */
+/*start cards area*/
+.cards{
+    overflow-x:hidden;
+    background: #e3e4e5;
+    padding: 80px 100px;
+}
+.card-css{
+    overflow-x: hidden;
+    background:#fff;
+    width:356px;
+    margin-right:30px;
+    margin-bottom:30px;
+    border:2px solid #a5cd38;
+    padding:80px 40px 30px 40px;
+}
+.h4{
+    
+    font-family: 'Plau-Regular';
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+    color: #a6ce39;
+}
+.hr-css{
+    padding-top: 4px;
+    color: #A6CE39;
+    margin-top: 56px;
+    margin-bottom:20px;
+}
+.img-css{
+    margin-right: auto;
+    display: block;
+    margin-left: auto;  
+    margin-bottom:56px;
+}
+/*End cards area*/
+.green-text{
+    font-family: 'Plau-Light';
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: left;
+    color: #fff;
+    margin: 0;
+}
+/* start logo area */
+.row1{
+    display:flex;
+}
+.logo-area{
+    padding:80px 100px;
+    background: #fafbfd;
+}
+.logo-text{
+    font-family: 'Plau-med';
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: left;
+    color: #a5cd38;
+    padding-bottom: 50px;
+
+}
+.logo-hr-css{
+
+    margin:15px 0;
+    background-color:#69747A;
+    
+}
+.link-hr-hor{
+    margin: 45px -33px;
+    padding: 1px 0px 1px 131px;   
+    background-color: #69747A;
+    transform: rotate(90deg);
+}
+/*ENd  Logo Area  */
+
+/*Start Footer Area  */
+.footer-bg{
+    background:#69747A;
+    padding:80px 100px;
+}
+.footer-logos{
+   padding-bottom: 78px; 
+}
+.fb-logo{
+    padding-right:30px;
+}
+.logo2{
+    padding-right:10px;
+}
+.logo3{
+    padding-right:30px;
+}
+.footer-btn{
+    font-family: 'Plau-Regular';
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 26px;
+    text-align: left;
+    color: #a5cd38;
+    background:transparent;
+    border:2px solid #a5cd38;
+    padding: 18px;
+    margin-right: 30px;
+}
+.footer-1{
+    list-style:none;
+    font-family: 'Plau-med';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: left;
+    color: #fff;
+
+}
+.footer-1 a :hover{
+    color:#a5cd38;
+}
+.form-css{
+    background: transparent;
+    color: #fff;
+    /* border:0px solid #fff; */
+}
+.form-css::content{
+    background: transparent;
+    color: #fff;
+}
+::placeholder{
+    color:#fff;
+}
+.form-group{
+    padding-bottom:20px;
+}
+.form-btn{
+    border:2px solid #a5cd38;
+    background: transparent;
+    color: #a5cd38;
+    padding: 5px 15px;
+}
+hr{
+    color:#fff;
+}
+.footer-bar{
+    font-family:'plau-Light';
+    font-size:15px;
+    color:#fff;
+    
+}
+.footer-bar2{
+    font-family:'plau-Light';
+    font-size:15px;
+    color:#A6CE39;
+}
+
+/*End Footer Area  */
+/*-----------------------------------------------------------------*/
+/* start Gallery page css*/ 
+/* Start Heading */
+.header-gallery{
+    background-color: #959595;
+    margin:0;   
+}
+.gallery-head{
+    color:#fff;
+    padding: 55px 140px;
+    margin:0;
+}
+/* END Heading */
+/* Start Image area */
+
+.set-1{
+    display:flex;   
+}
+.card-text{
+    font-family: 'plau-med';
+    font-size: 16px;
+    padding: 17px 30px;
+    color:#fff;
+    background-color: #69747A;
+}
+.multipal-img{
+    margin:90px 90px;
+}
+.set-1 div{
+    margin-right:30px;
+    margin-bottom: 30px;
+}
+.active-1{
+    background-color: #a5cd38;
+}
+.card-text:hover{
+    color:#fff;
+}
+/* END Image Area*/
+
+/* End Gallery page css*/
+
+/*-----------------------------------------------------------------*/
+
+/*Start Gallery Project Page*/
+.multipal-img-sider{
+    padding: 110px 92px;
+    background: #e5dfdf;
+}
+/*END Gallery Project Page*/
+/*start Other projext area */
+.gallery-project-sider{
+    margin: 153px 85px;
+}
+.gallery-img-sider{
+margin-top:50px;
+}
+.gallery-img-sider img{
+    margin-right:30px;    
+}
+.gallery-img-sider img:last-child{
+    margin-right:0;    
+}
+.text-proeject{
+    font-family: 'Plau-med';
+    font-size: 40px;
+    line-height: 40px;
+    text-align: left;
+    color: #A6CE39;
+}
+
+             
+/*END Other projext area*/
+
+/*-----------------------------------------------------------------*/
+
+/*Strat Contact Page*/
+.contact{
+    font-family: 'Plau-Regular';
+    font-weight: normal;
+    font-size: 40px;
+    color: #A6CE39;
+    margin: 0;
+    padding-bottom: 50px;
+}
+.contact-area-1{
+    margin: 85px 200px;
+    background: #fff;
+}
+.contact-area-2{
+    list-style-type:none;
+    font-family: 'Plau-Regular';
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: left;
+    padding:0px;
+}
+.contact-area-2 a{
+    color: #69747a;
+
+}
+.green-active{
+    display:contents;
+    color:#A6CE39;
+
+}
+.green-active li{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    
+}
+/*END Contact Page*/
+/*Start New Homw Page*/
+
+/*END New Homw Page*/
